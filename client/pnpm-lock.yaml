@@ -1,0 +1,45 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@trpc/client': ^9.26.2
+  '@trpc/server': ^9.26.2
+  typescript: ^4.7.4
+
+dependencies:
+  '@trpc/client': 9.26.2_@trpc+server@9.26.2
+  '@trpc/server': 9.26.2
+
+devDependencies:
+  typescript: 4.7.4
+
+packages:
+
+  /@babel/runtime/7.18.9:
+    resolution: {integrity: sha512-lkqXDcvlFT5rvEjiu6+QYO+1GXrEHRo2LOtS7E4GtX5ESIZOgepqsZBVIj6Pv+a6zqsya9VCgiK1KAK4BvJDAw==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      regenerator-runtime: 0.13.9
+    dev: false
+
+  /@trpc/client/9.26.2_@trpc+server@9.26.2:
+    resolution: {integrity: sha512-R7eaxEtcK1C6PwxlGZCmMEiGGfn1BUU/hnulTpHVw/Mkd/3EqQqvP3Gs7pAYnJAZ44rjNF3Hepw5q2nP2Ctnhg==}
+    peerDependencies:
+      '@trpc/server': 9.26.2
+    dependencies:
+      '@babel/runtime': 7.18.9
+      '@trpc/server': 9.26.2
+    dev: false
+
+  /@trpc/server/9.26.2:
+    resolution: {integrity: sha512-J1kP072cVYC5H2qFhiLQ/gV57s0of++9QLLKf9n8mVfx300tecKQW2eu/oFvRCDPRTTQ1prHz9zm15IzLwoRrw==}
+    dev: false
+
+  /regenerator-runtime/0.13.9:
+    resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
+    dev: false
+
+  /typescript/4.7.4:
+    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true

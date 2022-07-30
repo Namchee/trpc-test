@@ -1,2 +1,3 @@
-# trpc-test
-Testing out tRPC
+# tRPC playground
+
+My personal playground for tRPC.

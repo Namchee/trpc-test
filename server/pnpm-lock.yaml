@@ -1,0 +1,23 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@trpc/server': ^9.26.2
+  typescript: ^4.7.4
+
+dependencies:
+  '@trpc/server': 9.26.2
+
+devDependencies:
+  typescript: 4.7.4
+
+packages:
+
+  /@trpc/server/9.26.2:
+    resolution: {integrity: sha512-J1kP072cVYC5H2qFhiLQ/gV57s0of++9QLLKf9n8mVfx300tecKQW2eu/oFvRCDPRTTQ1prHz9zm15IzLwoRrw==}
+    dev: false
+
+  /typescript/4.7.4:
+    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
